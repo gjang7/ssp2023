@@ -1,7 +1,7 @@
 # DEEE725 Speech Signal Processing Lab
 ## 2023 Spring, Kyungpook National University
 
-# lab 01
+# Lab 01 Korean digit recognition using python-hmmlearn
 - See [Digit-Recognition-GMM-HMM](https://github.com/gjang7/Digit-Recognition-GMM-HMM/)
 - attached: `ssp2023_lab01.pdf`
 
