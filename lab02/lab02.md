@@ -8,7 +8,7 @@
 - Complete 80% or more quantile minimum value spectrum drawing
 - Upsampling (interpolation)
   - from 16 kHz audio file, resample it to 32 kHz, 48 kHz, and 44.1 kHz
-  - use your own recording (_not kdigits0-3.wav given as a reference_)
+  - use your own recording (_not `gjang-kdigits0-3.wav` given as a reference_)
   - need to implement low-pass FIR filter
   - check if there is no frequency contents over 8 kHz frequency by spectrogram
   - listen to the outputs
