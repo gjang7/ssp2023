@@ -2,7 +2,7 @@
 ## 2023 Spring, Kyungpook National University
 
 # Lab 02 Draw spectrogram
-- attached: `ssp2023_lab02.pdf`
+- attached: `lab02_spectrum.ipynb`
 
 ## assignments
 - Complete 80% or more quantile minimum value spectrum drawing
