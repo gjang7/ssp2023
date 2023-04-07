@@ -1,7 +1,7 @@
 # DEEE725 Speech Signal Processing Lab
 ## 2023 Spring, Kyungpook National University
 
-# Lab 03 spectral subtraction and Wiener filtering, end point detection
+# Lab 04 spectral subtraction and Wiener filtering, end point detection
 
 - attached: [`lab04_ns_epd.ipynb`](lab04_ns_epd.ipynb)
 
