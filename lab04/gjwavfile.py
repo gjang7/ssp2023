@@ -17,11 +17,12 @@
 
 import scipy 
 import numpy as np
-import IPython
 
 def writewav(filename, samplerate, data, maxval=1.0):
     data = data/maxval*(2**15)    # 16 bit
     scipy.io.wavfile.write(filename, samplerate, data.astype(np.int16))
 
-def showwav(filename):
-    IPython.display.Audio(filename)
+# not working as a function
+#import IPython
+#def showwav(filename):
+#    IPython.display.Audio(filename)
