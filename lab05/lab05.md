@@ -3,7 +3,9 @@
 
 # Lab 05 probabilistic noise suppression methods
 
-- attached: [`lab05_ns_prob_models.ipynb`](lab04_ns_epd.ipynb)
+- attached: 
+    1. [`lab05.pdf`](lab05.pdf)
+    2. [`lab05_ns_prob_models.ipynb`](lab05_ns_prob_models.ipynb)
 
 1. probabilstic voice activity detection (VAD) for noise spectrum estimation
     - fixed thresholding 으로 noise 구간을 구하면 noise 의 크기에 크게 
@@ -23,13 +25,13 @@
     작은 Gaussian 을 noise 분포로 가정 
     3. P(noise|y) = p(noise) p(y|noise), y 는 한 frame
 
-3. frequency domain VAD
+3. frequency domain VAD using dual Rayleigh mixture model
     1. Fourier transform on y(t) -> Y(w)
     2. Rayleigh distribution 으로 |X(w)|^2, |N(w)|^2 의 
     dual Rayleigh mixture model 추정
     3. 각 Rayleigh distribution 의 sigma parameter 로 E[N^2] 추정
 
-4. log-frequency domain VAD
+4. log-frequency domain VAD using dual LogNormal mixture model
     1. Fourier transform on y(t) -> Y(w)
     2. Compute log PSD - log|Y(w)|^2
     3. Gaussian distribution 으로 log|X(w)|^2, log|N(w)|^2 의 
@@ -37,6 +39,22 @@
     4. noise Gaussian 으로 E[ log|N(w)|^2 ]
     5. E[|N(w)|^2] = exp E[ log|N(w)|^2 ]
 
-5. uniform filter bank energies 
+---
+## Next topics
 
-6. mel-scale filter bank energies
+5. uniform filter bank energies for noise suppression
+
+6. mel-scale filter bank energies for noise suppression
+
+7. features for speech recognition 1: log filter bank energies
+
+8. features for speech recognition 2: mel-frequency (scale) ceptral coefficients (MFCC) 
+
+9. dynamic time warping (DTW) for isolated word recognition
+
+---
+## NEXT Next topics (subject to change)
+
+1. hidden Markov model (HMM) 
+
+2. recurrent neural network (RNN)
