@@ -2,7 +2,7 @@
 # DEEE725 Speech Signal Processing Lab, Spring 2023, Kyungpook National University
 ## Instructor: Gil-Jin Jang
 
-[Lab 01 # Lab 01 Korean digit recognition using python-hmmlearn](lab01)
+[Lab 01 Korean digit recognition using python-hmmlearn](lab01)
 
 [Lab 02 Draw spectrogram](lab02)
 
