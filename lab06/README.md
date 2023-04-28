@@ -13,7 +13,7 @@
 3. features for speech recognition: log filter bank energies and mel-frequency (scale) ceptral coefficients (MFCC) 
 
 - attachments and links: 
-    1. [`lab06-part1.pdf`](lab0-part15.pdf)
+    1. [`lab06-part1.pdf`](lab0-part1.pdf)
     2. [`lab06-part1_ns_filterbank.ipynb`](lab06-part1_ns_filterbank.ipynb) - not available yet
     3. [Mel scale](https://en.wikipedia.org/wiki/Mel_scale)
     4. [MFCC](https://sanghyu.tistory.com/45)
