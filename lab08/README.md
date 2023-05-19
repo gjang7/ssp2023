@@ -6,7 +6,7 @@
 ---
 
 - attachments and links: 
-    1. [`lab07.pdf`](lab07.pdf)
+    1. [`lab08.pdf`](lab08.pdf)
     2. [`vcodec4.py`](vcodec4.py)
 
 ---
